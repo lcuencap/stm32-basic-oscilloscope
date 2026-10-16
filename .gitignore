@@ -1,0 +1,38 @@
+# STM32CubeIDE build output
+Debug/
+Release/
+build/
+
+# Object files i artefactes del compilador
+*.o
+*.obj
+*.d
+*.su
+*.cyclo
+*.list
+*.map
+*.lst
+
+# Binaris generats
+*.bin
+*.hex
+*.elf
+*.out
+
+# Backups i temporals
+*~
+*.bak
+*.swp
+*.tmp
+
+# Eclipse / Sistema
+.metadata/
+.DS_Store
+Thumbs.db
+
+# Coursework documents and local IDE state stay outside the portfolio repo
+/.settings/
+/*.pdf
+!/report.pdf
+/EXPLICACIO_CODI_P3.md
+/*.launch
